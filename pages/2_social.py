@@ -4,7 +4,10 @@ from config.scoring import CATEGORY_DISPLAY_NAMES
 from data.questions import SOCIAL_QUESTIONS
 
 st.title("Social Assessment")
-st.markdown("Evaluate your organization's social practices across five key categories.")
+st.markdown(
+    "Evaluate your organization's social performance — fair customer treatment, data privacy, "
+    "talent & wellbeing, diversity, and community investment."
+)
 
 if "responses" not in st.session_state:
     st.session_state["responses"] = {}

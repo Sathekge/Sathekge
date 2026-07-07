@@ -44,12 +44,12 @@ with st.sidebar:
 # Main landing page
 st.title("ESG Diagnostic Tool")
 st.markdown("""
-Welcome to the **ESG Automated Diagnostic Tool**. This tool assesses your organization's
-performance across three pillars:
+Welcome to the **ESG Automated Diagnostic Tool** for financial and professional services.
+This tool assesses your organization's performance across three pillars:
 
-- **Environmental** — Carbon emissions, energy, waste, water, and environmental policy
-- **Social** — Labor practices, diversity, community, health & safety, and human rights
-- **Governance** — Board composition, ethics, transparency, risk management, and shareholder rights
+- **Environmental** — Financed emissions, responsible investment, operational footprint, and portfolio climate risk
+- **Social** — Fair customer treatment, data privacy, talent & wellbeing, diversity, and community investment
+- **Governance** — Ethics & AML compliance, board composition, product governance, risk management, and disclosure
 
 ### How to use
 

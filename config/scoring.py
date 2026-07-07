@@ -1,30 +1,29 @@
 PILLAR_WEIGHTS = {
-    "environmental": 0.35,
+    "environmental": 0.20,
     "social": 0.35,
-    "governance": 0.30,
+    "governance": 0.45,
 }
 
 CATEGORY_WEIGHTS = {
     "environmental": {
-        "carbon_emissions": 0.25,
-        "energy_usage": 0.20,
-        "waste_management": 0.20,
-        "water_usage": 0.15,
-        "environmental_policy": 0.20,
+        "financed_emissions": 0.30,
+        "responsible_investment": 0.30,
+        "operational_footprint": 0.20,
+        "climate_risk_portfolio": 0.20,
     },
     "social": {
-        "labor_practices": 0.25,
-        "diversity_inclusion": 0.20,
-        "community_engagement": 0.15,
-        "health_safety": 0.25,
-        "human_rights": 0.15,
+        "fair_customer_treatment": 0.25,
+        "data_privacy_protection": 0.25,
+        "talent_development": 0.20,
+        "diversity_inclusion": 0.15,
+        "community_investment": 0.15,
     },
     "governance": {
+        "ethics_aml_compliance": 0.25,
         "board_composition": 0.20,
-        "ethics_compliance": 0.25,
-        "transparency": 0.20,
+        "product_governance": 0.20,
         "risk_management": 0.20,
-        "shareholder_rights": 0.15,
+        "transparency_disclosure": 0.15,
     },
 }
 
@@ -39,21 +38,20 @@ SCORE_LABELS = [
 ]
 
 CATEGORY_DISPLAY_NAMES = {
-    "carbon_emissions": "Carbon Emissions",
-    "energy_usage": "Energy Usage",
-    "waste_management": "Waste Management",
-    "water_usage": "Water Usage",
-    "environmental_policy": "Environmental Policy",
-    "labor_practices": "Labor Practices",
+    "financed_emissions": "Financed Emissions",
+    "responsible_investment": "Responsible Investment",
+    "operational_footprint": "Operational Footprint",
+    "climate_risk_portfolio": "Climate Risk in Portfolio",
+    "fair_customer_treatment": "Fair Customer Treatment",
+    "data_privacy_protection": "Data Privacy & Protection",
+    "talent_development": "Talent & Wellbeing",
     "diversity_inclusion": "Diversity & Inclusion",
-    "community_engagement": "Community Engagement",
-    "health_safety": "Health & Safety",
-    "human_rights": "Human Rights",
+    "community_investment": "Community Investment",
+    "ethics_aml_compliance": "Ethics, AML & Compliance",
     "board_composition": "Board Composition",
-    "ethics_compliance": "Ethics & Compliance",
-    "transparency": "Transparency",
+    "product_governance": "Product Governance",
     "risk_management": "Risk Management",
-    "shareholder_rights": "Shareholder Rights",
+    "transparency_disclosure": "Transparency & Disclosure",
 }
 
 PILLAR_DISPLAY_NAMES = {

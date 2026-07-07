@@ -4,7 +4,10 @@ from config.scoring import CATEGORY_DISPLAY_NAMES
 from data.questions import ENVIRONMENTAL_QUESTIONS
 
 st.title("Environmental Assessment")
-st.markdown("Evaluate your organization's environmental practices across five key categories.")
+st.markdown(
+    "Evaluate your organization's environmental performance as a financial services firm — "
+    "financed emissions, responsible investment, operational footprint, and portfolio climate risk."
+)
 
 if "responses" not in st.session_state:
     st.session_state["responses"] = {}

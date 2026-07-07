@@ -4,7 +4,10 @@ from config.scoring import CATEGORY_DISPLAY_NAMES
 from data.questions import GOVERNANCE_QUESTIONS
 
 st.title("Governance Assessment")
-st.markdown("Evaluate your organization's governance practices across five key categories.")
+st.markdown(
+    "Evaluate your organization's governance — ethics & AML compliance, board composition, "
+    "product governance, risk management, and transparency."
+)
 
 if "responses" not in st.session_state:
     st.session_state["responses"] = {}

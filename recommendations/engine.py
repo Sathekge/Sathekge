@@ -1,212 +1,198 @@
 RECOMMENDATIONS = {
-    "carbon_emissions": {
+    "financed_emissions": {
         "low": [
-            "Begin measuring your organization's carbon footprint using the GHG Protocol framework.",
-            "Establish a baseline for Scope 1 and Scope 2 emissions.",
+            "Begin measuring financed emissions for your highest-exposure asset classes using the PCAF standard.",
+            "Establish a baseline for Scope 3 Category 15 emissions across the lending and investment portfolio.",
         ],
         "medium": [
-            "Set science-based emissions reduction targets aligned with the Paris Agreement.",
-            "Develop a roadmap to reduce emissions across operations and supply chain.",
+            "Expand financed-emissions coverage to the full portfolio and improve data quality scores.",
+            "Set interim portfolio decarbonization targets aligned with net-zero alliance commitments.",
         ],
         "high": [
-            "Pursue net-zero commitments with verified offset programs.",
-            "Engage supply chain partners in collaborative emissions reduction initiatives.",
+            "Publish sector-level decarbonization pathways and engage high-emitting clients on transition plans.",
+            "Lead industry collaboration on financed-emissions methodology and disclosure.",
         ],
     },
-    "energy_usage": {
+    "responsible_investment": {
         "low": [
-            "Implement energy monitoring systems to track consumption across facilities.",
-            "Conduct an energy audit to identify efficiency improvement opportunities.",
+            "Introduce ESG screening criteria into credit and investment decision processes.",
+            "Adopt exclusion policies for the highest-impact sectors (e.g., thermal coal, deforestation-linked activities).",
         ],
         "medium": [
-            "Set renewable energy procurement targets (e.g., RE100 commitment).",
-            "Invest in on-site renewable energy generation where feasible.",
+            "Become a UN PRI signatory and embed ESG scoring into portfolio construction and credit models.",
+            "Develop sustainable finance products (green bonds, sustainability-linked loans, ESG funds).",
         ],
         "high": [
-            "Achieve 100% renewable energy for operations.",
-            "Share energy efficiency best practices with industry peers.",
+            "Set targets for sustainable finance volumes and report progress against them.",
+            "Use active ownership - voting and engagement - to drive ESG improvement in investee companies.",
         ],
     },
-    "waste_management": {
+    "operational_footprint": {
         "low": [
-            "Implement waste tracking and categorization across all operations.",
-            "Establish basic recycling programs at all facilities.",
+            "Start measuring operational emissions: office energy, business travel, and data-center/cloud usage.",
+            "Introduce basic energy efficiency and travel-reduction policies.",
         ],
         "medium": [
-            "Set waste reduction targets and implement circular economy principles.",
-            "Partner with waste management providers for improved diversion rates.",
+            "Set reduction targets for operational emissions and procure renewable energy for offices and data centers.",
+            "Prefer cloud providers with public renewable-energy and carbon-neutral commitments.",
         ],
         "high": [
-            "Pursue zero-waste-to-landfill certification.",
-            "Develop product take-back or closed-loop recycling programs.",
+            "Achieve carbon-neutral operations with credible offsets for residual emissions.",
+            "Extend footprint standards to key suppliers and outsourced service providers.",
         ],
     },
-    "water_usage": {
+    "climate_risk_portfolio": {
         "low": [
-            "Install water metering and monitoring systems across operations.",
-            "Identify water-intensive processes and assess reduction opportunities.",
+            "Conduct an initial assessment of climate transition and physical risk concentrations in the portfolio.",
+            "Identify collateral and sectors most exposed to climate-related value impairment.",
         ],
         "medium": [
-            "Set water reduction targets especially in water-stressed regions.",
-            "Implement water recycling and reuse systems.",
+            "Implement TCFD-aligned scenario analysis and integrate climate risk into credit and investment risk models.",
+            "Introduce climate risk appetite limits for high-exposure sectors.",
         ],
         "high": [
-            "Achieve water-positive status through restoration and replenishment projects.",
-            "Lead industry collaboration on water stewardship.",
+            "Run regular climate stress tests and disclose quantified portfolio climate-risk metrics.",
+            "Advise clients on climate resilience and transition financing opportunities.",
         ],
     },
-    "environmental_policy": {
+    "fair_customer_treatment": {
         "low": [
-            "Develop a formal environmental policy and communicate it to all stakeholders.",
-            "Consider implementing an Environmental Management System (ISO 14001).",
+            "Adopt a fair-treatment-of-customers policy covering transparent pricing, fees, and terms.",
+            "Review products for hidden fees and terms that disadvantage customers.",
         ],
         "medium": [
-            "Achieve ISO 14001 certification and integrate environmental criteria into procurement.",
-            "Publish an annual environmental performance report.",
+            "Launch financial-inclusion products for underserved segments and simplify product disclosure.",
+            "Implement vulnerable-customer identification and hardship-support processes.",
         ],
         "high": [
-            "Align reporting with TCFD and other leading frameworks.",
-            "Integrate environmental performance into executive compensation.",
+            "Measure and publish customer-outcome metrics (complaints, resolution times, inclusion reach).",
+            "Co-design products with underserved communities to expand access to finance.",
         ],
     },
-    "labor_practices": {
+    "data_privacy_protection": {
         "low": [
-            "Review and align labor practices with ILO core conventions.",
-            "Establish minimum wage standards above local legal requirements.",
+            "Implement a formal data privacy framework aligned with applicable regulation (e.g., GDPR/POPIA).",
+            "Establish clear client consent management and data-retention policies.",
         ],
         "medium": [
-            "Implement comprehensive employee development and training programs.",
-            "Conduct regular employee satisfaction surveys with published results.",
+            "Test the data-breach response plan regularly, including client notification procedures.",
+            "Introduce governance for algorithmic decision-making (credit scoring, robo-advice) to prevent bias.",
         ],
         "high": [
-            "Become an employer of choice with industry-leading benefits and flexibility.",
-            "Extend fair labor standards to all supply chain tiers.",
+            "Obtain independent privacy and security certifications (e.g., ISO 27701).",
+            "Publish transparency reports on data use and algorithmic governance.",
+        ],
+    },
+    "talent_development": {
+        "low": [
+            "Establish structured training, professional certification support, and career development paths.",
+            "Begin measuring employee engagement and turnover with published action plans.",
+        ],
+        "medium": [
+            "Implement wellbeing and mental-health programs addressing workload and burnout.",
+            "Build succession plans and internal mobility programs for critical roles.",
+        ],
+        "high": [
+            "Position the firm as an employer of choice with industry-leading development and flexibility.",
+            "Link people-metrics (engagement, retention, development) to executive scorecards.",
         ],
     },
     "diversity_inclusion": {
         "low": [
-            "Develop and publish a formal Diversity, Equity & Inclusion policy.",
-            "Begin tracking workforce diversity metrics across all levels.",
+            "Publish a formal DEI policy and begin tracking workforce diversity at all levels.",
+            "Set baseline diversity metrics for leadership and decision-making roles.",
         ],
         "medium": [
-            "Set measurable diversity targets for leadership and board positions.",
-            "Implement unconscious bias training and inclusive hiring practices.",
+            "Set measurable diversity targets for senior leadership and investment/credit committees.",
+            "Implement inclusive hiring and unconscious-bias training.",
         ],
         "high": [
-            "Publish pay equity audits and close identified gaps.",
-            "Serve as an industry advocate for diversity and inclusion standards.",
+            "Publish pay-equity audits and close identified gaps.",
+            "Advocate for diversity standards across the financial industry.",
         ],
     },
-    "community_engagement": {
+    "community_investment": {
         "low": [
-            "Identify key community stakeholders and establish engagement channels.",
-            "Develop a community investment or CSR strategy.",
+            "Launch financial-literacy initiatives in the communities you serve.",
+            "Define a community investment strategy aligned with core business capabilities.",
         ],
         "medium": [
-            "Implement structured community programs aligned with core business capabilities.",
-            "Measure and report social impact of community initiatives.",
+            "Direct capital to community development: SME lending, affordable housing, or impact investment.",
+            "Measure and report the social impact of community programs.",
         ],
         "high": [
-            "Scale successful programs and share impact methodologies publicly.",
+            "Set targets for community-directed capital and publish outcomes.",
             "Co-create community development strategies with local stakeholders.",
         ],
     },
-    "health_safety": {
+    "ethics_aml_compliance": {
         "low": [
-            "Implement a formal occupational health and safety management system.",
-            "Begin tracking and reporting workplace injury and incident rates.",
+            "Strengthen the AML/KYC program with risk-based customer due diligence and transaction monitoring.",
+            "Roll out anti-bribery, anti-corruption, and market-conduct policies with mandatory training.",
         ],
         "medium": [
-            "Achieve ISO 45001 certification and implement proactive safety programs.",
-            "Introduce mental health and wellbeing support for all employees.",
+            "Establish a whistleblower program with anonymous reporting and non-retaliation protection.",
+            "Conduct regular independent compliance audits and close findings promptly.",
         ],
         "high": [
-            "Achieve industry-leading safety performance with zero-harm targets.",
-            "Extend health and safety standards throughout the supply chain.",
-        ],
-    },
-    "human_rights": {
-        "low": [
-            "Develop a human rights policy aligned with the UN Guiding Principles.",
-            "Conduct an initial human rights risk assessment of operations.",
-        ],
-        "medium": [
-            "Implement human rights due diligence processes across the supply chain.",
-            "Establish accessible grievance mechanisms for affected stakeholders.",
-        ],
-        "high": [
-            "Publicly report on human rights due diligence findings and remediation actions.",
-            "Advocate for human rights standards across the industry.",
+            "Adopt advanced financial-crime analytics and typology-based monitoring.",
+            "Lead industry collaboration on financial-crime prevention standards.",
         ],
     },
     "board_composition": {
         "low": [
-            "Increase the proportion of independent directors on the board.",
-            "Establish board diversity targets for gender, ethnicity, and expertise.",
+            "Increase the proportion of independent directors with financial-sector expertise.",
+            "Establish board diversity targets for gender, ethnicity, and skills.",
         ],
         "medium": [
-            "Create a dedicated ESG or sustainability committee at board level.",
-            "Implement regular board effectiveness reviews with published results.",
+            "Create a dedicated ESG/sustainability committee or assign explicit board ESG accountability.",
+            "Run regular board effectiveness reviews with published outcomes.",
         ],
         "high": [
             "Achieve best-practice board composition with diverse, independent oversight.",
             "Link board evaluation to ESG performance outcomes.",
         ],
     },
-    "ethics_compliance": {
+    "product_governance": {
         "low": [
-            "Develop and distribute a comprehensive code of ethics and conduct.",
-            "Implement anti-corruption and anti-bribery policies with training.",
+            "Introduce a formal product approval process assessing suitability and customer outcomes.",
+            "Review sales incentives to remove structures that encourage mis-selling.",
         ],
         "medium": [
-            "Establish a whistleblower protection program with anonymous reporting.",
-            "Conduct regular ethics training and compliance audits.",
+            "Implement periodic product reviews with target-market and value-for-money assessments.",
+            "Establish a conflicts-of-interest register with active management across business lines.",
         ],
         "high": [
-            "Achieve recognized ethical business certifications.",
-            "Lead industry collaboration on ethical business standards.",
-        ],
-    },
-    "transparency": {
-        "low": [
-            "Begin publishing an annual sustainability or ESG report.",
-            "Disclose basic ESG metrics alongside financial reporting.",
-        ],
-        "medium": [
-            "Adopt recognized reporting frameworks (GRI, SASB, TCFD).",
-            "Seek external assurance for ESG data and disclosures.",
-        ],
-        "high": [
-            "Achieve best-in-class transparency with integrated reporting.",
-            "Link executive compensation to published ESG targets.",
+            "Publish product-governance outcomes and customer-value metrics.",
+            "Embed customer-outcome testing into new product design from inception.",
         ],
     },
     "risk_management": {
         "low": [
-            "Integrate ESG risks into the enterprise risk management framework.",
-            "Conduct an initial climate-related risk assessment.",
+            "Integrate ESG risks into the enterprise risk management framework and risk appetite statement.",
+            "Conduct an initial ESG risk materiality assessment across business lines.",
         ],
         "medium": [
-            "Implement scenario analysis for climate and ESG risks (TCFD-aligned).",
-            "Establish a cybersecurity and data privacy governance framework.",
+            "Include ESG and climate scenarios in regular stress testing.",
+            "Strengthen cybersecurity governance with board-level oversight and incident simulations.",
         ],
         "high": [
-            "Achieve advanced ESG risk integration with real-time monitoring.",
-            "Share risk management methodologies with industry peers.",
+            "Achieve advanced ESG risk integration with real-time monitoring and quantified limits.",
+            "Share risk management methodologies with industry peers and regulators.",
         ],
     },
-    "shareholder_rights": {
+    "transparency_disclosure": {
         "low": [
-            "Ensure equal voting rights and transparent shareholder communication.",
-            "Develop a policy on related-party transactions.",
+            "Begin publishing an annual ESG/sustainability report with core metrics.",
+            "Disclose basic ESG data alongside financial reporting.",
         ],
         "medium": [
-            "Engage shareholders proactively on ESG matters and strategy.",
-            "Provide shareholders with advisory votes on ESG policies.",
+            "Align disclosure with recognized frameworks (GRI, SASB, TCFD, SFDR) and seek external assurance.",
+            "Link executive compensation to ESG targets and disclose the linkage.",
         ],
         "high": [
-            "Achieve leading-practice shareholder engagement and governance standards.",
-            "Facilitate shareholder-led ESG proposals and resolutions.",
+            "Move to integrated reporting with quantified, assured ESG metrics.",
+            "Set the standard for stakeholder engagement and voting transparency in your market.",
         ],
     },
 }
